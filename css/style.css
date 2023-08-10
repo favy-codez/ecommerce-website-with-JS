@@ -27,10 +27,8 @@
     --white: hsl(0, 100%, 100%);
     --onyx: hsl(0, 0%, 27%);
   
-    /**
-     * typography
-     */
-  
+    /*** typography*/
+
     --fs-1: 1.563rem;
     --fs-2: 1.375rem;
     --fs-3: 1.25rem;
@@ -49,24 +47,13 @@
     --weight-600: 600;
     --weight-700: 700;
   
-    /**
-     * border-radius
-     */
-  
+    /*** border-radius*/
     --border-radius-md: 10px;
     --border-radius-sm: 5px;
   
-    /**
-     * transition 
-     */
-  
+    /*** transition */
     --transition-timing: 0.2s ease;
-  
   }
-  
-  
-  
-  
   
   /*-----------------------------------*\
     #RESET
@@ -108,9 +95,7 @@
   
   body { background: var(--white); }
   
-  /**
-   * scrollbar style
-   */
+  /*** scrollbar style*/
   
   body::-webkit-scrollbar { width: 15px; }
   
@@ -126,10 +111,6 @@
   }
   
   body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
-  
-  
-  
-  
   
   /*-----------------------------------*\
     #REUSED STYLE
@@ -165,18 +146,11 @@
     margin-bottom: 30px;
   }
   
-  
-  
-  
-  
   /*-----------------------------------*\
     #MAIN
   \*-----------------------------------*/
   
-  /**
-   * overlay 
-   */
-  
+  /*** overlay */
   .overlay {
     position: fixed;
     top: 0;
@@ -195,12 +169,7 @@
     pointer-events: all;
   }
   
-  
-  
-  /**
-   * MODAL 
-   */
-  
+  /*** MODAL */
   .modal {
     position: fixed;
     top: 0;
@@ -322,14 +291,7 @@
   
   .btn-newsletter:hover { background: var(--salmon-pink); }
   
-  
-  
-  
-  
-  /**
-   * NOTIFICATION TOAST 
-   */
-  
+  /*** NOTIFICATION TOAST */
   .notification-toast {
     position: fixed;
     bottom: 80px;
@@ -365,7 +327,6 @@
       opacity: 1;
       visibility: visible;
     }
-  
   }
   
   .notification-toast.closed { display: none; }
@@ -414,10 +375,6 @@
     font-size: var(--fs-10);
     color: var(--sonic-silver);
   }
-  
-  
-  
-  
   
   /*-----------------------------------*\
     #HEADER
@@ -637,10 +594,6 @@
     border-radius: var(--border-radius-md);
   }
   
-  
-  
-  
-  
   /*-----------------------------------*\
     #BANNER
   \*-----------------------------------*/
@@ -717,10 +670,6 @@
   
   .banner-btn:hover { background: var(--eerie-black); }
   
-  
-  
-  
-  
   /*-----------------------------------*\
     #CATEGORY
   \*-----------------------------------*/
@@ -782,14 +731,9 @@
     text-transform: capitalize;
   }
   
-  
-  
-  
-  
   /*-----------------------------------*\
     #SIDEBAR
   \*-----------------------------------*/
-  
   .sidebar {
     background: var(--white);
     position: fixed;
@@ -956,14 +900,9 @@
     color: var(--davys-gray);
   }
   
-  
-  
-  
-  
   /*-----------------------------------*\
     #PRODUCT MINIMAL
   \*-----------------------------------*/
-  
   .product-minimal { margin-bottom: 30px; }
   
   .product-minimal .product-showcase { margin-bottom: 10px; }
@@ -1034,14 +973,9 @@
     color: var(--sonic-silver);
   }
   
-  
-  
-  
-  
   /*-----------------------------------*\
     #PRODUCT FEATURED
   \*-----------------------------------*/
-  
   .product-featured { margin-bottom: 30px; }
   
   .product-featured .showcase-wrapper {
@@ -1191,14 +1125,9 @@
     font-size: var(--fs-11);
   }
   
-  
-  
-  
-  
   /*-----------------------------------*\
     #PRODUCT GRID
-  \*-----------------------------------*/
-  
+  \*-----------------------------------*/ 
   .product-main { margin-bottom: 30px; }
   
   .product-grid {
@@ -1338,14 +1267,9 @@
   
   .product-grid del { color: var(--sonic-silver); }
   
-  
-  
-  
-  
   /*-----------------------------------*\
     #TESTIMONIAL
   \*-----------------------------------*/
-  
   .testimonials-box { margin-bottom: 50px; }
   
   .testimonial-card {
@@ -1387,14 +1311,9 @@
     font-size: var(--fs-7);
   }
   
-  
-  
-  
-  
   /*-----------------------------------*\
     #CTA
   \*-----------------------------------*/
-  
   .cta-container {
     position: relative;
     aspect-ratio: 5 / 6;
@@ -1455,14 +1374,9 @@
     margin: auto;
   }
   
-  
-  
-  
-  
   /*-----------------------------------*\
     #SERVICE
   \*-----------------------------------*/
-  
   .service-container {
     display: flex;
     justify-content: center;
@@ -1504,14 +1418,9 @@
     font-size: var(--fs-9);
   }
   
-  
-  
-  
-  
   /*-----------------------------------*\
     #BLOG
   \*-----------------------------------*/
-  
   .blog { margin-bottom: 30px; }
   
   .blog-container {
@@ -1561,14 +1470,9 @@
     color: var(--davys-gray);
   }
   
-  
-  
-  
-  
   /*-----------------------------------*\
     #FOOTER
   \*-----------------------------------*/
-  
   footer {
     background: var(--eerie-black);
     padding: 30px 0;
@@ -1626,10 +1530,7 @@
   }
   
   
-  /**
-   * footer nav 
-   */
-  
+  /*** footer nav */
   .footer-nav {
     border-bottom: 1px solid var(--onyx);
     padding-bottom: 30px;
@@ -1722,14 +1623,9 @@
     color: inherit;
   }
   
-  
-  
-  
-  
   /*-----------------------------------*\
     #RESPONSIVE
   \*-----------------------------------*/
-  
   
   /**
    * responsive larger than 480px screen
